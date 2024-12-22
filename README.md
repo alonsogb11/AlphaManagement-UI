@@ -8,7 +8,7 @@ Este es mi proyecto final universitario de la materia Diseño Web I (ISO-305) de
 
 ## Visualización en vivo 🪄
 
-* _No disponible por el momento_
+* [https://alonsogb11.github.io/AlphaManagement-UI/](https://alonsogb11.github.io/AlphaManagement-UI/)
 
 ## Instalación 📦
 Este proyecto no necesita instalación. Simplemente se ejecuta el archivo index.
