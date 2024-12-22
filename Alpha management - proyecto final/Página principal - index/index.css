@@ -1,0 +1,428 @@
+.cuerpo {
+  margin: 0px;
+  font-family: Montserrat;
+  cursor: default;
+  }
+
+#page_name1 {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 6px;
+  bottom: 8px;
+  width: 185px;
+  height: 25px;
+  color: #FFFFFF;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: normal;
+  text-decoration: none;
+  text-align: left;
+  }
+  
+#grad {
+  width: auto;
+  height: 42px;
+  background: linear-gradient(to right,#8BC34A,#009688);
+  }
+
+  .busqueda {
+    position: relative;
+    font-family: Montserrat;
+    font-weight: 400;
+    left: 480px;
+    top: 6px;
+    width: 513px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 0px solid #fafafa;
+    border-radius: 2px;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.1);
+    padding-left: 28px;
+  }
+
+  #j {
+    position: absolute;
+    top: 10px;
+    left: 485px;
+    width: 20px;
+  }
+
+#usuario {
+  position: absolute;
+  left: 1330px;
+  top: 8px;
+  width: 115px;
+  height: 21px;
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 13px;
+  text-align: right;
+  line-height: 1px;
+  padding: 5px;
+  margin: 0px;
+}
+
+#correoUsuario {
+  position: absolute;
+  left: 1272px;
+  top: 23px;
+  width: 173px;
+  height: 27px;
+  color: #333333;
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: right;
+  line-height: 1px;
+  padding: 5px;
+  margin: 0px;
+}
+
+#imgUsuario {
+  position: absolute;
+  left: 1455px;
+  top: 2px;
+  height: 34px;
+  width: 34px;
+  border: #333333 solid 2px;
+}
+
+#menu1 {
+  margin: 0px;
+  padding-top: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 20px;
+  width: 220px;
+  height: 664px;
+  box-shadow: 5px 0 5px -5px #000000;
+}
+
+#lista_menu {
+  margin: 0px;
+  padding: 0px;
+  width: 220px;
+  height: 664px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 500;
+}
+
+.o {
+  text-decoration: none;
+  color: inherit;
+}
+
+.p {
+  text-decoration: none;
+  color: inherit;
+}
+
+#selector {
+  position: relative;
+  left: 11px;
+  top: 0px;
+  width: 198px;
+  height: 30px;
+  background: rgba(139,195,74,0.2);
+  border: 0px solid #000000;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+#el1 {
+  position: relative;
+  top: 3px;
+  left: 7px;
+  margin-bottom: 20px;
+  width: 200px;
+  font-size: 14pt;
+  cursor: pointer;
+} 
+
+#subtitulo_menu {
+  margin-bottom: 20px;
+  font-size: 10pt;
+  color: #333333;
+  font-weight: 400;
+}
+
+#el2, #el3, #el4, #el5, #el6, #el7, #el8, #el9, #el10 {
+  position: relative;
+  left: 18px;
+  margin-bottom: 20px;
+  width: 200px;
+  font-size: 14pt;
+  cursor: pointer;
+}
+
+#subtitulo2_menu {
+  margin-bottom: 20px;
+  font-size: 10pt;
+  color: #333333;
+  font-weight: 400;
+}
+
+#panel_de_contenido {
+  position: absolute;
+  left: 240px;
+  top: 42px;
+  width: 1255px;
+  height: 664px;
+}
+
+#migajas_de_pan {
+  position: relative;
+  width: 1195px;
+  height: 16px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 23px;
+  padding-bottom: 29px;
+  
+}
+#mig {
+  color: #9E9E9E;
+  font-size: 12px;
+  font-weight: 500;
+  top: 0px;
+}
+
+#resumen {
+  position: relative;
+  width: 1095px;
+  height: 140px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3 {
+  margin: 0px;
+  font-weight: 600;
+}
+
+#panel {
+  position: relative;
+  width: 1095px;
+  height: 100px;
+  top: 16px;
+  background-color: white;
+  box-shadow:0px 0px 5px 0px rgba(0,0,0,0.3);
+}
+
+#nombre_de_proyecto {
+  position: absolute;
+  font-weight: 600;
+  left: 14px;
+  top: 10px;
+  margin: 0px;
+  width: fit-content;
+  height: fit-content;
+  cursor: pointer;
+}
+
+#fecha_de_entrega {
+  position: relative;
+  font-size: small;
+  left: 860px;
+  top: 11px;
+  width: fit-content;
+  height: fit-content;
+  margin: 0px;
+}
+
+#vers {
+  position: absolute;
+  left: 14px;
+  top: 25px;
+  font-size: 15px;
+}
+
+#tareas_comp {
+  position: relative;
+  left: 502px;
+  top: 9px;
+  width: 300px;
+  font-size: 15px;
+  color: #1C7CE2;
+  cursor: pointer;
+}
+
+#bugs_corr {
+  position: absolute;
+  left: 732px;
+  top: 25px;
+  font-size: 15px;
+  color: #FF0000;
+  cursor: pointer;
+}
+
+#versiones_lanz {
+  position: absolute;
+  left: 926px;
+  top: 25px;
+  font-size: 15px;
+  color: #FF9800;
+  cursor: pointer;
+}
+
+#porcentaje {
+  position: relative;
+  top: 3px;
+  left: 14px;
+  font-weight: 600;
+  color: #333333;
+}
+
+progress {
+  position: absolute;
+  width: 1029px;
+  height: 16px;
+  left: 50px;
+  top: 70px;
+  background-color: white;
+}
+
+#tareas {
+  position: relative;
+  width: 1095px;
+  height: 416px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#por_hacer  {
+  position: absolute;
+  width: 240px;
+  height: 394px;
+  padding-left: 10px;
+  padding-top: 6px;
+  background-color: #F5F5F5;
+}
+
+#en_desarrollo {
+  position: absolute;
+  left: 363px;
+  width: 240px;
+  height: 394px;
+  padding-left: 10px;
+  padding-top: 6px;
+  background-color: #F5F5F5;
+}
+
+#fase_de_prueba {
+  position: absolute;
+  left: 645px;
+  width: 240px;
+  height: 394px;
+  padding-left: 10px;
+  padding-top: 6px;
+  background-color: #F5F5F5;
+}
+
+#finalizado {
+  position: absolute;
+  left: 925px;
+  width: 240px;
+  height: 394px;
+  padding-left: 10px;
+  padding-top: 6px;
+  background-color: #F5F5F5;
+}
+
+.ald {
+  font-weight: 600;
+}
+
+.tarea {
+  position: absolute;
+  top: 32px;
+  width: 220px;
+  height: 79px;
+  box-shadow:0px 0px 5px 0px rgba(0,0,0,0.2);
+  background-color: white;
+  padding: 2px 5px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+#por_hacer2, #en_desarrollo2, #finalizado2 {
+  top: 124px;
+  cursor: pointer;
+}
+
+#en_desarrollo3, #finalizado3 {
+  top: 216px;
+  cursor: pointer;
+}
+
+#finalizado4 {
+  top: 308px;
+  cursor: pointer;
+}
+
+.icono_code {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  left: 9px;
+  top: 49px;
+}
+
+.icono_bug {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  left: 5px;
+  top: 46px;
+}
+
+.icono_database {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  left: 9px;
+  top: 48px;
+}
+
+.clave {
+  position: absolute;
+  font-weight: 600;
+  color: #9E9E9E;
+  top: 52px;
+  left: 40px;
+  margin: 0px;
+}
+
+.users {
+  position: absolute;
+  top: 47px;
+  left: 194px;
+  height: 30px;
+  width: 30px;
+}
+
+.contador {
+  position: absolute;
+  font-size: 14px;
+  margin: 0px;
+  width: fit-content;
+  top: 54px;
+  left: 176px;
+}
+
+.priority {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  top: 51px;
+  left: 145px;
+}

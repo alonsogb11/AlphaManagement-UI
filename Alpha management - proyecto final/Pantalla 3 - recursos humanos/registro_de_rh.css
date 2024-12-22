@@ -1,0 +1,575 @@
+.cuerpo {
+    margin: 0px;
+    font-family: Montserrat;
+    }
+  
+  #page_name1 {
+    position: absolute;
+    top: 8px;
+    left: 8px;
+    right: 6px;
+    bottom: 8px;
+    width: 185px;
+    height: 25px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 18px;
+    font-weight: 600;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    }
+    
+  #grad {
+    width: auto;
+    height: 42px;
+    background: linear-gradient(to right,#8BC34A,#009688);
+    }
+  
+  .busqueda {
+    position: relative;
+    font-family: Montserrat;
+    font-weight: 400;
+    left: 480px;
+    top: 6px;
+    width: 513px;
+    height: 30px;
+    background: #FFFFFF;
+    border: 0px solid #fafafa;
+    border-radius: 2px;
+    box-shadow:0px 0px 5px 0px rgba(0,0,0,0.1);
+    padding-left: 28px;
+  }
+
+  #j {
+    position: absolute;
+    top: 10px;
+    left: 485px;
+    width: 20px;
+  }
+  
+  #usuario {
+    position: absolute;
+    left: 1330px;
+    top: 8px;
+    width: 115px;
+    height: 21px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 13px;
+    text-align: right;
+    line-height: 1px;
+    padding: 5px;
+    margin: 0px;
+  }
+  
+  #correoUsuario {
+    position: absolute;
+    left: 1272px;
+    top: 23px;
+    width: 173px;
+    height: 27px;
+    color: #333333;
+    font-family: Montserrat;
+    font-size: 12px;
+    text-align: right;
+    line-height: 1px;
+    padding: 5px;
+    margin: 0px;
+  }
+  
+  #imgUsuario {
+    position: absolute;
+    left: 1455px;
+    top: 2px;
+    height: 34px;
+    width: 34px;
+    border: #333333 solid 2px;
+  }
+  
+  #menu1 {
+    margin: 0px;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    width: 220px;
+    height: 664px;
+    box-shadow: 5px 0 5px -5px #000000;
+  }
+  
+  #lista_menu {
+    margin: 0px;
+    padding: 0px;
+    width: 220px;
+    height: 664px;
+  }
+  
+  ul {
+    margin: 0px;
+    padding: 0px;
+    font-weight: 500;
+  }
+
+  .p {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  #selector {
+    position: absolute;
+    left: 20px;
+    top: 550px;
+    width: 198px;
+    height: 30px;
+    background: rgba(139,195,74,0.2);
+    border: 0px solid #000000;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+  
+  #el1 {
+    position: relative;
+    top: 3px;
+    left: 18px;
+    margin-bottom: 27px;
+    width: 200px;
+    font-size: 14pt;
+  } 
+  
+  #subtitulo_menu {
+    margin-bottom: 20px;
+    font-size: 10pt;
+    color: #333333;
+    font-weight: 400;
+    cursor: default;
+  }
+  
+  #el2, #el3, #el4, #el5, #el6, #el7, #el8, #el9, #el10 {
+    position: relative;
+    left: 18px;
+    margin-bottom: 20px;
+    width: 200px;
+    font-size: 14pt;
+    cursor: pointer;
+  }
+  
+  #subtitulo2_menu {
+    margin-bottom: 20px;
+    font-size: 10pt;
+    color: #333333;
+    font-weight: 400;
+    cursor: default;
+  }
+  
+  #panel_de_contenido {
+    position: absolute;
+    left: 240px;
+    top: 42px;
+    width: 1255px;
+    height: 664px;
+  }
+  
+  #migajas_de_pan {
+    position: relative;
+    width: 1195px;
+    height: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    font-size: 12px;
+    color: #000000;
+    cursor: default;
+  }
+
+  .breadcrumb {
+    color: #9E9E9E;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  #caja_principal {
+    width: 1155px;
+    height: 596px;
+    padding: 10px 50px 30px 50px;
+    display: flex;
+    cursor: default;
+  }
+
+  #empleados {
+    background-color: #F5F5F5;
+    width: 690px;
+    height: 588px;
+    margin-right: 8px;
+    padding: 5px;
+    display: block;
+    border-radius: 2px;
+  }
+
+  #ficha {
+    background: rgba(139,195,74,0.3);
+    width: 429px;
+    height: 588px;
+    margin-left: 8px;
+    padding: 5px;
+    border-radius: 2px;
+  }
+
+  .personal {
+    background-color: #ffffff;
+    width: 675px;
+    height: 44px;
+    top: 54px;
+    margin-bottom: 5px;
+    position: relative;
+    border-radius: 2px;
+  }
+
+  #personal11 {
+    margin-bottom: 0px;
+  }
+
+  .nombre_completo {
+    position: absolute;
+    width: fit-content;
+    margin: 0px;
+    font-size: 16px;
+    font-weight: 600;
+    top: 3px;
+    left: 7px;
+  }
+
+  .carrera_ejercida {
+    position: absolute;
+    width: fit-content;
+    margin: 0px;
+    font-size: 14px;
+    top: 22px;
+    left: 7px;
+  }
+
+  .estatus_actual {
+    position: absolute;
+    width: fit-content;
+    margin: 0px;
+    font-size: 14px;
+    font-weight: 500;
+    top: 5px;
+    left: 450px;
+  }
+
+  .ver {
+    position: absolute;
+    width: 16px;
+    top: 25px;
+    left: 656px;
+    cursor: pointer;
+  }
+
+  #activo {
+    color: #4caf50;
+  }
+
+  #inactivo {
+    color: #1c7ce2;
+  }
+
+  #suspendido {
+    color: #ff1100;
+  }
+
+  #licencia_med {
+    color: #9C27B0;
+  }
+
+  #reclutamiento {
+    color: #ff9800;
+  }
+
+  #titulo_pantalla {
+    position: absolute;
+    margin: 0px;
+  }
+
+  #filtro {
+    position: absolute;
+    left: 685px;
+    width: 60px;
+    height: 22px;
+    color: #000000;
+    font-family: Montserrat;
+    font-weight: 500;
+    font-style: normal;
+    text-decoration: none;
+    text-align: right;
+    background: #FFFFFF;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+  #filt {
+    position: inherit;
+    width: 15px;
+    top: 3.5px;
+    left: 3px;
+    cursor: pointer;
+  }
+
+  .sort {
+    position: absolute;
+    margin: 0px;
+    top: 118px;
+    color: #9e9e9e;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+  }
+
+  #sort1 {
+    left: 62px;
+  }
+
+  #sort2 {
+    left: 502px;
+  }
+
+  .scroll_container {
+    position: absolute;
+    left: 734px;
+    top: 136px;
+    width: 12px;
+    height: 535px;
+    background: #E0E0E0;
+    border-radius: 4px;
+  }
+
+  .content {
+    position: absolute;
+    left: px;
+    top: 0px;
+    width: 12px;
+    height: 70px;
+    border-radius: 4px;
+    background: #9E9E9E;
+  }
+
+  .content:hover {
+    background: #919191;
+  }
+
+  #titulo_pantalla {
+    font-weight: 500;
+    font-size: 20px;
+    left: 58px;
+  }
+
+  #info {
+    position: absolute;
+    width: 20px;
+    top: 85px;
+    left: 150px;
+    cursor: pointer;
+  }
+
+  #ftficha {
+    position: absolute;
+    top: 78px;
+    left: 766px;
+    width: 225px;
+    border-radius: 2px;
+  }
+
+  #are {
+    position: absolute;
+    top: 70px;
+    left: 1005px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+  }
+
+  .tituloPersonal {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 0px 3px 0px;
+  }
+
+  .infoPersonal {
+    position: absolute;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px;
+  }
+
+  #nombreCompleto {
+    top: 116px;
+    left: 1005px;
+  }
+
+  #nombre1 {
+    top: 136px;
+    left: 1015px;
+  }
+
+  #paisOrigen {
+    top: 166px;
+    left: 1005px;
+  }
+
+  #pais {
+    top: 186px;
+    left: 1015px;
+  }
+
+  #cedula {
+    top: 216px;
+    left: 1005px;
+  }
+
+  #idL {
+    top: 236px;
+    left: 1015px;
+  }
+
+  #telefono {
+    top: 266px;
+    left: 1005px;
+  }
+
+  #num {
+    top: 286px;
+    left: 1015px;
+  }
+
+  #residencia {
+    top: 320px;
+    left: 780px;
+  }
+
+  #calle {
+    top: 340px;
+    left: 790px;
+  }
+
+  #sexo {
+    top: 370px;
+    left: 780px;
+  }
+
+  #m {
+    top: 390px;
+    left: 790px;
+  }
+
+  #edad {
+    top: 370px;
+    left: 910px;
+  }
+
+  #annos {
+    top: 390px;
+    left: 920px;
+  }
+
+  .tituloProfesional {
+    position: absolute;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0px 0px 3px 0px;
+  }
+
+  .infoProfesional {
+    position: absolute;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0px;
+  }
+
+  #areaProfesional {
+    position: relative;
+    height: 263px;
+    top: 320px;
+    left: 5px;
+  }
+
+  #arp {
+    position: absolute;
+    top: 20px;
+    left: 5px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #757575;
+  }
+
+  #grado {
+    top: 76px;
+    left: 5px;
+  }
+
+  #carrera {
+    top: 96px;
+    left: 15px;
+  }
+
+  #cargo {
+    top: 76px;
+    left: 220px;
+  }
+
+  #puesto {
+    top: 96px;
+    left: 230px;
+  }
+
+  #puesto2 {
+    top: 112px;
+    left: 230px;
+  }
+
+  #inicioLabor {
+    top: 146px;
+    left: 5px;
+  }
+
+  #fecha {
+    top: 166px;
+    left: 15px;
+  }
+
+  #horario {
+    top: 146px;
+    left: 220px;
+  }
+
+  #dias {
+    top: 166px;
+    left: 230px;
+  }
+
+  #horas {
+    top: 182px;
+    left: 230px;
+  }
+
+  #sueldo {
+    top: 216px;
+    left: 5px;
+  }
+
+  #cant {
+    top: 236px;
+    left: 15px;
+  }
+
+  #modalidad {
+    top: 216px;
+    left: 220px;
+  }
+
+  #psr {
+    top: 236px;
+    left: 230px;
+  }
