@@ -1,20 +1,20 @@
-## Descripción ✏️
-Este es mi proyecto final universitario de la materia Diseño Web I (ISO-305) de UNAPEC, se trata de la interfaz de usuario de una plataforma de gestión de proyectos, así como Jira Software y Azure DevOps, llamada _**Alpha Management**_, en la cual se pide la creación de 5 vistas: El panel de control, la creación de un nuevo proyecto, el archivo de todos los proyectos, los recursos humanos y el inicio de sesión. El proyecto fue creado en Visual Studio Code y está hecho puramente con **HTML** y **CSS**.
+## _Description_ ✏️
+This is my final project for the subject _Diseño Web I (ISO-305)_ from UNAPEC, it is about the user interface of a project management platform, as well as Jira Software and Azure DevOps, called **Alpha Management**, in which the creation of 5 views is requested: The control panel, the creation of a new project, the archive of all projects, human resources and the login. The project was created in Visual Studio Code and is made purely with **HTML** and **CSS**.
 
-## Autor 💡
+## _Author_ 💡
 **Alonso Genao**
 
 * [LinkedIn](https://www.linkedin.com/in/alonsogb11/)
 
-## Visualización en vivo 🪄
+## _Live view_ 🪄
 
 * [https://alonsogb11.github.io/AlphaManagement-UI/](https://alonsogb11.github.io/AlphaManagement-UI/)
 
-## Instalación 📦
-Este proyecto no necesita instalación. Simplemente se ejecuta el archivo index.
+## _Installation_ 📦
+This project does not require installation. Simply run the index file.
 
-## Información ℹ️
-Si desea saber algo relacionado con el proyecto, escríbeme a alonsogb11604@gmail.com.
+## _Info_ ℹ️
+If you want to know anything related to this project, contact me at alonsogb11604@gmail.com.
 
-## Licencia 📄
-_N/a_
+## _Copyright_ 📄
+Copyright © 2024 Alonso. Todos los derechos reservados.
